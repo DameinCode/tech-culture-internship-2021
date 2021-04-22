@@ -16,6 +16,6 @@ function isPrime(x) {
 
 for (let i = 2; i < 100; i++) {
     if(isPrime(i) === true) {
-        console.log(i, 1, i)
+        console.log(i,"Делители этого числа:", 1,"и", i)
     }
 }
